@@ -29,8 +29,11 @@ Provide a practical Java example.
 
 ANSWER:
 
-
-
+OOP principle that bundles the fields and methods of a class, while restricting direct access of the aforemetioned
+fields.It is important due to restricting of direct access, plus it is important due to data validation by
+way of setter methods, to validate data before a field can be updated and
+ensuring that the object remains in a validated state. The private keyword enures that the fields in question
+cannot be accessed by external classes, there by ensuring encapsulation
 
 ============================================================
 QUESTION 2 — INHERITANCE
@@ -47,6 +50,7 @@ Provide a practical Java example.
 
 
 ANSWER:
+
 
 
 
