@@ -12,15 +12,17 @@ public class Question10_Product {
         // TODO:
         // Store the product name
         // Store the product price
+        this.name = name;
+        this.price = price;
     }
 
     public String getName() {
         // TODO:
-        return "";
+        return this.name;
     }
 
     public double getPrice() {
         // TODO:
-        return 0;
+        return this.price;
     }
 }
