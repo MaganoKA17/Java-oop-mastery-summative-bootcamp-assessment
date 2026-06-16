@@ -51,7 +51,9 @@ Provide a practical Java example.
 
 ANSWER:
 
-
+An OOP concept in which a class is allowed to i herit the attributes and behavious of an existing class. What makes
+inheritance useful is that it prevents redundancy, by allowing at least one subclass to share a single base
+implementation, which honours the DRY principle.
 
 
 
