@@ -1,5 +1,6 @@
 package oopmastery;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Question04_Course {
@@ -11,11 +12,14 @@ public class Question04_Course {
         // TODO:
         // Store the course name
         // Create the student list
+        students = new ArrayList<>();
+
     }
 
     public void enroll(Question04_Student student) {
         // TODO:
         // Add the student to the course
+
     }
 
     public int studentCount() {
