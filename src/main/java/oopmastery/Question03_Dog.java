@@ -10,6 +10,6 @@ public class Question03_Dog extends Question03_Animal {
     public String makeSound() {
         // TODO:
         // Return "Woof"
-        return "";
+        return "woof";
     }
 }

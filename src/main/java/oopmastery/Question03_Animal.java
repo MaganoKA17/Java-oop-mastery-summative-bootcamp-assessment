@@ -9,7 +9,7 @@ public abstract class Question03_Animal {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public abstract String makeSound();

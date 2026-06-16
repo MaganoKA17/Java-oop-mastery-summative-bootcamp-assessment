@@ -14,6 +14,10 @@ public class Question01_BankAccount {
         // TODO:
         // Add the amount to the balance
         // Ignore negative deposits
+        if (amount < 0){
+            ;
+        }
+        this.balance += amount;
     }
 
     public void withdraw(double amount) {
@@ -22,14 +26,17 @@ public class Question01_BankAccount {
         // 1. amount is positive
         // 2. sufficient funds exist
         // Balance may never become negative
+
+        if (amount > this.balance && this.balance == 0) getBalance();
+        this.balance -= amount;
     }
 
     public double getBalance() {
         // TODO:
-        return 0;
+        return this.balance;
     }
 
     public String getOwner() {
-        return owner;
+        return this.owner;
     }
 }

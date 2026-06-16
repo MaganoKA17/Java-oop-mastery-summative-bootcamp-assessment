@@ -11,11 +11,13 @@ public class Question02_Engine {
     public void start() {
         // TODO:
         // Set the engine to running
+        this.running = true;
     }
 
     public void stop() {
         // TODO:
         // Stop the engine
+        this.running = false;
     }
 
     public boolean isRunning() {
