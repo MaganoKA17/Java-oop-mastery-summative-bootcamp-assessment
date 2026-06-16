@@ -11,14 +11,15 @@ public class Question06_User {
     ) {
         // TODO:
         // Store username and password
+        this.username = username;
+        this.password = password;
     }
 
-    public boolean login(
-            String password
-    ) {
+    public boolean login(String password) {
         // TODO:
         // Return true only if
         // the supplied password matches
+        if (this.password.equals(password)) return true;
         return false;
     }
 
@@ -35,11 +36,16 @@ public class Question06_User {
         // Return true if changed
         // Return false otherwise
 
+        if (this.password.equals(oldPassword) && newPassword != null && !newPassword.isEmpty()){
+            this.password = newPassword;
+            return true;
+        }
+
         return false;
     }
 
     public String getUsername() {
         // TODO:
-        return "";
+        return this.username;
     }
 }

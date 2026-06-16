@@ -11,18 +11,20 @@ public class Question05_Rectangle {
     ) {
         // TODO:
         // Store width and height
+        this.width = width;
+        this.height = height;
     }
 
     public double area() {
         // TODO:
         // Return width × height
-        return 0;
+        return this.width * this.height;
     }
 
     public double perimeter() {
         // TODO:
         // Return:
         // 2 × (width + height)
-        return 0;
+        return 2 * (this.width + this.height);
     }
 }
