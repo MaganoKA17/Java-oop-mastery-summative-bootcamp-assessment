@@ -11,6 +11,6 @@ public class Question09_Manager
     public double calculateBonus() {
         // TODO:
         // Return 5000
-        return 0;
+        return 5000;
     }
 }
