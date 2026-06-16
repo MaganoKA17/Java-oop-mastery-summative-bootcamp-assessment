@@ -8,6 +8,6 @@ public class Question07_CashPayment
         // TODO:
         // Return:
         // "Paid with cash"
-        return "";
+        return "Paid with cash";
     }
 }

@@ -8,6 +8,6 @@ public class Question07_CreditCardPayment
         // TODO:
         // Return:
         // "Paid with credit card"
-        return "";
+        return "Paid with credit card";
     }
 }
