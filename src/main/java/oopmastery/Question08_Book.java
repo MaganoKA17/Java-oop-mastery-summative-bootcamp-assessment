@@ -9,12 +9,15 @@ public class Question08_Book {
         // TODO:
         // Store the title
         // A new book should not be borrowed
+        this.title = title;
+        this.borrowed = false;
     }
 
     public void borrow() {
         // TODO:
         // Only allow borrowing if
         // the book is not already borrowed
+        if(!this.borrowed == false)this.borrowed =true;
     }
 
     public void returnBook() {
@@ -29,6 +32,6 @@ public class Question08_Book {
 
     public String getTitle() {
         // TODO:
-        return "";
+        return this.title;
     }
 }
